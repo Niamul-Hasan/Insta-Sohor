@@ -58,6 +58,8 @@ const createPost = (post) => {
 
   const userImage = post.userImage; //image file is getting from posts.json boject
 
+  const comments = post.comments[0];
+
   div.innerHTML = `
               <div class="post__header">
                 <div class="post__profile">
@@ -123,9 +125,9 @@ const createPost = (post) => {
                   <div class="post__description">
                     <small>
                       <a class="post__name--underline" href="#">
-                          ${post.comments?.user}
+                          ${comments?.user}
                       </a>
-                      ${post.comments?.text}
+                      ${comments?.text}
                     </small>
                   </div>
                   <span class="post__date-time">30 minutes ago</span>
