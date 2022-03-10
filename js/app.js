@@ -56,8 +56,9 @@ const createPost = (post) => {
   div.classList.add("post");
   //creating a dynamic userImage variable
 
-  const userImage = post.userImage; //image file is getting from posts.json boject
+  const userImage = post.userImage; //image file is getting from posts.json object
 
+  // user name and their comments are converting into an object from posts.json
   const comments = post.comments[0];
 
   div.innerHTML = `
