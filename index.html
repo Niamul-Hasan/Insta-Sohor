@@ -83,8 +83,18 @@
                 <h3>[Q1] How does javascript work?</h3>
                 <p>Now-a-days javascript is a very common well known single threated scripting language . It is a very powerfull language. Almost every web browser uses javascript engine to get human readable language.Most common javascript engines are V8, spidermonkey, chakra etc. When we code our program then javascript engine converts our human language (alfanumeric codes) into machine codes (binary codes) by using JIT (Just In Time ) compiler.According to user instraction the compiled code managed by a callstack, executes the assigned task. </p>
             </div>
+
             <div>
-                <h3>[Q2] What does eventloop do?</h3>
+                <h3>[Q2] What is the difference between Local storage and session storage?</h3>
+                <p>
+                    When data is stored in local storage, data persists until it is manually deleted. On the other hand, session storage stores data until the current window or tab is closed. <br>
+                    One user can read the local storage data in the future visits but session storage data can never be read if the current tab is closed once. <br>
+                    Furthermore, the storage capacity of local storage is 5MB to 10MB wherece the maximum storage capacity of session storage is 5MB.
+                </p>
+            </div>
+
+            <div>
+                <h3>[Q3] What does eventloop do?</h3>
                 <p> I have three younger brothers named Raju, kaju and Saju.One day I told  Raju to give me a glass of lemon water and bring me my sun glass. Raju ordered kaju to prepare the lemon water.When kaju starts to preparing my glass suddenly he noticed that lemon is missing. He ask his younger Saju to bring him a lemon. Then Saju brings  him(kaju) a lemon first and then Raju delever me a delicious drink.After that Raju bring me the sun glass. </p>
                 <p>From this above example I can say that Raju maintains a callstack with eventloop. <br>
                  Similarly, when a javascript engine forms a callstack it maintains a synchronus queue which contains the instruction messages that helps to execute various functions of the callstack. This queue is known as eventloop and it supplys the instuction message to the empty callstack. </p>
