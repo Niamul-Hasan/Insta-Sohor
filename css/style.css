@@ -246,9 +246,17 @@ img {
 }
 .bonous{
   margin-top: 10px;
-padding: 20px;
-
+  padding: 20px;
 }
+.bonous h1{
+  text-align: center;
+  color: brown;
+  margin-bottom: 20px;
+}
+.bonous div{
+  padding-bottom: 25px;
+}
+
 
 @media only screen and (max-width: 992px) {
   #posts {
