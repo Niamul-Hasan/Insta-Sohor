@@ -244,6 +244,11 @@ img {
 #reported{
   display: none;
 }
+.bonous{
+  margin-top: 10px;
+padding: 20px;
+
+}
 
 @media only screen and (max-width: 992px) {
   #posts {
